@@ -1,0 +1,433 @@
+ERROR      НЕ ЗАДАННО ИМЯ БАЗЫ ДАННЫХ ПРИ ВСТАВКИ СТРОКИ:      время:16:35:28 и дата:08.17.14
+ERROR      SetLINK:      время:16:35:28 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='vu348W'     время:16:40:00 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:16:40:01 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=1     время:16:40:01 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=1     время:16:40:01 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO NameTypeObject (name,Type) VALUES('Сердце','GL')     время:16:40:31 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO SmallProfile (name,Id_NTO,type) VALUES('Имя','3','текст')     время:16:40:31 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO SmallProfile (name,Id_NTO,type) VALUES('порядковый номер','3','текст')     время:16:40:31 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:16:40:31 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM SmallProfile WHERE Id_NTO=2     время:16:40:33 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM FullData WHERE Id_NTO=2     время:16:40:33 и дата:08.17.14
+ERROR      НЕ ЗАДАННО ИМЯ БАЗЫ ДАННЫХ ПРИ ПОЛУЧЕНИЕ ВЫБОРКИ:      время:16:40:33 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: DELETE FROM NameTypeObject WHERE id=2     время:16:40:33 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:16:40:37 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE id=3     время:16:40:38 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM SmallProfile WHERE Id_NTO=3     время:16:40:38 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM FullData WHERE Id_NTO=3     время:16:40:38 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO Objects (name,Id_NTO,Id_OBJ) VALUES('Сердце 1','3','0')     время:16:41:03 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO SmallProfileData (text,Id_SP,Id_OBJ) VALUES('Егор','3','2')     время:16:41:03 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO SmallProfileData (text,Id_SP,Id_OBJ) VALUES('1','4','2')     время:16:41:03 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:16:41:06 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:16:41:08 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=3     время:16:41:09 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE id=3     время:16:41:11 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM SmallProfile WHERE Id_NTO=3     время:16:41:11 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM FullData WHERE Id_NTO=3     время:16:41:11 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO Objects (name,Id_NTO,Id_OBJ) VALUES('Сердце 2','3','0')     время:16:41:25 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO SmallProfileData (text,Id_SP,Id_OBJ) VALUES('Михайела','3','3')     время:16:41:25 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO SmallProfileData (text,Id_SP,Id_OBJ) VALUES('2','4','3')     время:16:41:25 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:16:41:26 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:16:41:27 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=1     время:16:41:27 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=1     время:16:41:27 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=3     время:16:41:32 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=3     время:16:41:40 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO Link (Id_MAP,Id_OBJ,Id_MAPOBJ) VALUES('1','2','svg_1')     время:16:41:47 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO Link (Id_MAP,Id_OBJ,Id_MAPOBJ) VALUES('1','3','svg_2')     время:16:41:48 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:16:41:50 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:16:41:53 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=1     время:16:41:53 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=1     время:16:41:54 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=3     время:16:42:29 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  Link SET Id_OBJ='2' WHERE id=1     время:16:42:43 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  Link SET Id_OBJ='3' WHERE id=2     время:16:42:43 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO Link (Id_MAP,Id_OBJ,Id_MAPOBJ) VALUES('1','3','svg_2')     время:16:42:43 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:16:43:06 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=1     время:16:43:07 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:16:43:07 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=1     время:16:43:07 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='vu348W'     время:16:45:43 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=1     время:16:45:43 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:16:45:43 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=1     время:16:45:44 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE login='admin'     время:16:46:15 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO User (login,password) VALUES('admin','8025d0683f2f8d4a387b7f49b3af5c37')     время:16:46:15 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: CREATE DATABASE `admin` DEFAULT CHARACTER SET 'utf8'     время:16:46:15 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: CREATE TABLE `FullProfile` (id int(11) auto_increment primary key,Id_NTO int(11),Id_NTOFP int(11))     время:16:46:15 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: CREATE TABLE `Link` (id int(11) auto_increment primary key,Id_OBJ int(11),Id_MAP int(11),Id_MAPOBJ varchar(256))     время:16:46:16 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: CREATE TABLE `Maps` (id int(11) auto_increment primary key,name varchar(256),Type ENUM('svg','googlemaps'),data text)     время:16:46:16 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: CREATE TABLE `NameTypeObject` (id int(11) auto_increment primary key,name varchar(256),Type ENUM('GL','FP'))     время:16:46:16 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: CREATE TABLE `Objects` (id int(11) auto_increment primary key,name varchar(256),Id_NTO int(11),Id_OBJ int(11))     время:16:46:16 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: CREATE TABLE `SmallProfile` (id int(11) auto_increment primary key,name varchar(256),Id_NTO int(11),Type ENUM('Текст','Изображение'))     время:16:46:16 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: CREATE TABLE `SmallProfileData` (id int(11) auto_increment primary key,text varchar(256),Id_SP int(11),Id_OBJ int(11))     время:16:46:16 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: CREATE VIEW  `FullData` AS select `NameTypeObject`.`id` AS `id`,`NameTypeObject`.`name` AS `name`,`FullProfile`.`Id_NTO` AS `Id_NTO`,`FullProfile`.`id` AS `Id_FP` from (`NameTypeObject` join `FullProfile`) where (`NameTypeObject`.`id` = `FullProfile`.`Id_NTOFP`)     время:16:46:16 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: CREATE VIEW  `SmallData`  AS select `SmallProfileData`.`id` AS `id`,`SmallProfileData`.`text` AS `text`,`SmallProfileData`.`Id_SP` AS `Id_SP`,`SmallProfileData`.`Id_OBJ` AS `Id_OBJ`,`SmallProfile`.`name` AS `name`,`SmallProfile`.`Type` AS `Type` from (`SmallProfileData` join `SmallProfile`) where (`SmallProfileData`.`Id_SP` = `SmallProfile`.`id`)     время:16:46:16 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: CREATE VIEW  `LinkOBJ`  AS select `Link`.`id` AS `id`,`Link`.`Id_MAP` AS `Id_MAP`,`Link`.`Id_OBJ` AS `Id_OBJ`,`Link`.`Id_MAPOBJ` AS `Id_MAPOBJ`,`Objects`.`Id_NTO` AS `Id_NTO`,`Objects`.`name` AS `nameOBJ` from (`Link` join `Objects`) where (`Link`.`Id_OBJ` = `Objects`.`id`)     время:16:46:16 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE login='admin'     время:16:46:25 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  User SET token='klucF ' WHERE id='2'     время:16:46:25 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:16:46:25 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:16:46:29 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO NameTypeObject (name,Type) VALUES('человек','GL')     время:16:46:49 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO SmallProfile (name,Id_NTO,type) VALUES('возраст','1','текст')     время:16:46:49 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:16:46:49 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:16:46:51 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE id=1     время:16:46:52 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM SmallProfile WHERE Id_NTO=1     время:16:46:52 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM FullData WHERE Id_NTO=1     время:16:46:52 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO Objects (name,Id_NTO,Id_OBJ) VALUES('егор','1','0')     время:16:46:57 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO SmallProfileData (text,Id_SP,Id_OBJ) VALUES('23','1','1')     время:16:46:57 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:16:46:58 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE id=1     время:16:46:59 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM SmallProfile WHERE Id_NTO=1     время:16:46:59 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM FullData WHERE Id_NTO=1     время:16:46:59 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO Objects (name,Id_NTO,Id_OBJ) VALUES('мама','1','0')     время:16:47:08 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO SmallProfileData (text,Id_SP,Id_OBJ) VALUES('44','1','2')     время:16:47:09 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:16:47:10 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE id=1     время:16:47:11 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM SmallProfile WHERE Id_NTO=1     время:16:47:11 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM FullData WHERE Id_NTO=1     время:16:47:11 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO Objects (name,Id_NTO,Id_OBJ) VALUES('папа','1','0')     время:16:47:24 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO SmallProfileData (text,Id_SP,Id_OBJ) VALUES('49','1','3')     время:16:47:24 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:16:47:26 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO Maps (name,data,Type) VALUES('семья','svg/20140817164834242.svg','svg')     время:16:48:34 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:16:48:38 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:16:48:39 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=1     время:16:48:39 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=1     время:16:48:39 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:16:48:42 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:16:48:48 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:16:48:53 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO Link (Id_MAP,Id_OBJ,Id_MAPOBJ) VALUES('1','1','svg_1')     время:16:48:58 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO Link (Id_MAP,Id_OBJ,Id_MAPOBJ) VALUES('1','2','svg_3')     время:16:48:58 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO Link (Id_MAP,Id_OBJ,Id_MAPOBJ) VALUES('1','3','svg_2')     время:16:48:58 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:16:49:01 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:16:49:02 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=1     время:16:49:02 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=1     время:16:49:02 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:16:49:05 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE login='admin'     время:17:02:00 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  User SET token='JEuwnr' WHERE id='2'     время:17:02:00 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:17:02:00 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:02:05 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=1     время:17:02:05 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=1     время:17:02:05 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:17:02:08 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='JEuwnr'     время:17:02:20 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:02:20 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=1     время:17:02:20 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=1     время:17:02:20 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:17:02:22 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:17:02:53 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:03:13 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=1     время:17:03:13 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=1     время:17:03:14 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:17:03:22 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO Maps (name,data,Type) VALUES('катя','svg/20140817170738527.svg','svg')     время:17:07:38 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:17:07:40 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:07:42 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:17:07:42 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:17:07:42 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:17:07:46 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:07:57 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE id=1     время:17:07:59 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM SmallProfile WHERE Id_NTO=1     время:17:07:59 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM FullData WHERE Id_NTO=1     время:17:07:59 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO Objects (name,Id_NTO,Id_OBJ) VALUES('жанна','1','0')     время:17:08:05 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO SmallProfileData (text,Id_SP,Id_OBJ) VALUES('22','1','4')     время:17:08:06 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:17:08:08 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE id=1     время:17:08:10 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM SmallProfile WHERE Id_NTO=1     время:17:08:10 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM FullData WHERE Id_NTO=1     время:17:08:10 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO Objects (name,Id_NTO,Id_OBJ) VALUES('Настя','1','0')     время:17:08:15 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO SmallProfileData (text,Id_SP,Id_OBJ) VALUES('24','1','5')     время:17:08:15 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:17:08:16 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:08:17 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:17:08:17 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:17:08:17 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:17:08:20 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='klucF '     время:17:08:48 и дата:08.17.14
+ERROR      НЕ ЗАДАННО ИМЯ БАЗЫ ДАННЫХ ПРИ ПОЛУЧЕНИЕ ВЫБОРКИ:      время:17:08:48 и дата:08.17.14
+ERROR      НЕ ЗАДАННО ИМЯ БАЗЫ ДАННЫХ ПРИ ПОЛУЧЕНИЕ ВЫБОРКИ:      время:17:08:48 и дата:08.17.14
+ERROR      НЕ ЗАДАННО ИМЯ БАЗЫ ДАННЫХ ПРИ ПОЛУЧЕНИЕ ВЫБОРКИ:      время:17:08:48 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE login='admin'     время:17:09:24 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  User SET token='RpSOmE' WHERE id='2'     время:17:09:24 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:17:09:24 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:09:28 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:17:09:28 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:17:09:28 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:17:09:33 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='RpSOmE'     время:17:15:45 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:15:45 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:17:15:45 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:17:15:45 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:17:15:50 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:17:16:14 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO Link (Id_MAP,Id_OBJ,Id_MAPOBJ) VALUES('2','4','svg_5')     время:17:16:21 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO Link (Id_MAP,Id_OBJ,Id_MAPOBJ) VALUES('2','5','svg_6')     время:17:16:21 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:16:23 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:17:16:25 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE id=1     время:17:16:27 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM SmallProfile WHERE Id_NTO=1     время:17:16:27 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM FullData WHERE Id_NTO=1     время:17:16:27 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE id=4     время:17:16:27 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM SmallData WHERE Id_OBJ=4 AND  Type='Текст'     время:17:16:27 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM SmallData WHERE Id_OBJ=4 AND  Type='Изображение'     время:17:16:27 и дата:08.17.14
+ERROR      НЕ ЗАДАННО ИМЯ БАЗЫ ДАННЫХ ПРИ ПОЛУЧЕНИЕ ВЫБОРКИ:      время:17:16:27 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  Objects SET name='Жанна' WHERE id=4     время:17:16:37 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  SmallProfileData SET text='22' WHERE id=4     время:17:16:37 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:17:16:38 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:17:16:40 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:16:41 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:17:16:41 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:17:16:41 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:17:16:43 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='RpSOmE'     время:17:19:18 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:19:18 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:17:19:18 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:17:19:18 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='RpSOmE'     время:17:19:24 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:19:24 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:17:19:24 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:17:19:24 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='RpSOmE'     время:17:19:39 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:17:19:39 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:19:39 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:17:19:40 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='RpSOmE'     время:17:20:02 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:20:02 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:17:20:02 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:17:20:02 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:17:20:09 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='RpSOmE'     время:17:21:02 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:17:21:02 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:21:02 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:17:21:03 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='RpSOmE'     время:17:21:18 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:21:19 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:17:21:19 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:17:21:23 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='RpSOmE'     время:17:22:36 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:22:36 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:17:22:36 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:17:22:39 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='RpSOmE'     время:17:22:51 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:22:55 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:17:22:55 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:17:22:55 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='RpSOmE'     время:17:27:22 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:17:27:22 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:27:22 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:17:27:22 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:17:27:29 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='JEuwnr'     время:17:27:57 и дата:08.17.14
+ERROR      НЕ ЗАДАННО ИМЯ БАЗЫ ДАННЫХ ПРИ ПОЛУЧЕНИЕ ВЫБОРКИ:      время:17:27:57 и дата:08.17.14
+ERROR      НЕ ЗАДАННО ИМЯ БАЗЫ ДАННЫХ ПРИ ПОЛУЧЕНИЕ ВЫБОРКИ:      время:17:27:57 и дата:08.17.14
+ERROR      НЕ ЗАДАННО ИМЯ БАЗЫ ДАННЫХ ПРИ ПОЛУЧЕНИЕ ВЫБОРКИ:      время:17:27:57 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE login='admin'     время:17:28:05 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  User SET token='JlPGL3' WHERE id='2'     время:17:28:05 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:17:28:05 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:28:07 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:17:28:07 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:17:28:07 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:17:28:09 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='JlPGL3'     время:17:29:20 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:29:20 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:17:29:20 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:17:29:20 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:17:29:22 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  Link SET Id_OBJ='5' WHERE id=4     время:17:29:32 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  Link SET Id_OBJ='4' WHERE id=5     время:17:29:32 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:17:29:34 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:29:35 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:17:29:35 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:17:29:35 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:17:29:37 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:17:29:43 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:17:29:48 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:17:30:51 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  Maps SET name='катя', data='svg/20140817170738527.svg' WHERE id=2     время:17:30:51 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:17:30:52 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:30:55 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:17:30:55 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:17:30:56 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:17:30:58 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:17:31:10 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  Link SET Id_OBJ='5' WHERE id=5     время:17:31:24 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  Link SET Id_OBJ='4' WHERE id=4     время:17:31:24 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:17:31:29 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=1     время:17:31:38 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:31:38 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=1     время:17:31:38 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:17:31:42 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='JlPGL3'     время:17:36:17 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:36:17 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=1     время:17:36:17 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=1     время:17:36:17 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='JlPGL3'     время:17:36:31 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:36:31 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=1     время:17:36:31 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=1     время:17:36:31 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='JlPGL3'     время:17:36:48 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:17:36:48 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=1     время:17:36:48 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=1     время:17:36:48 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:17:36:49 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE login='admin'     время:21:58:36 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  User SET token='bRFcRG' WHERE id='2'     время:21:58:36 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:21:58:36 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:21:58:38 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:21:58:38 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:21:58:38 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:22:00:44 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:22:06:02 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=1     время:22:06:04 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:22:06:04 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=1     время:22:06:04 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:22:06:06 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE login='admin'     время:23:28:40 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  User SET token='EBepyY' WHERE id='2'     время:23:28:40 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:23:28:40 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:23:28:56 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:23:28:56 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:23:28:56 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:23:28:59 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:23:29:04 и дата:08.17.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:09:25:01 и дата:08.18.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:09:25:01 и дата:08.18.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:09:25:01 и дата:08.18.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:09:25:11 и дата:08.18.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:09:25:55 и дата:08.18.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:16:31:58 и дата:08.18.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:16:31:58 и дата:08.18.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:16:31:58 и дата:08.18.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:16:32:01 и дата:08.18.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:16:32:17 и дата:08.18.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:16:32:21 и дата:08.18.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:16:33:11 и дата:08.18.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  Maps SET name='катя', data='svg/20140817170738527.svg' WHERE id=2     время:16:33:11 и дата:08.18.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:16:33:13 и дата:08.18.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:16:33:15 и дата:08.18.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:16:33:15 и дата:08.18.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:16:33:15 и дата:08.18.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:16:42:55 и дата:08.18.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE login='admin'     время:16:41:04 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  User SET token='Oz9Vgq' WHERE id='2'     время:16:41:04 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:16:41:04 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO Maps (name,data,Type) VALUES('карта 3','svg/20140819164226423.svg','svg')     время:16:42:26 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE login='admin'     время:18:58:24 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  User SET token='zxsyVd' WHERE id='2'     время:18:58:24 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:18:58:24 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:18:58:28 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:18:58:30 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:18:58:35 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:18:58:39 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:18:58:39 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:18:58:39 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:18:59:24 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='JlPGL3'     время:19:02:11 и дата:08.19.14
+ERROR      НЕ ЗАДАННО ИМЯ БАЗЫ ДАННЫХ ПРИ ПОЛУЧЕНИЕ ВЫБОРКИ:      время:19:02:11 и дата:08.19.14
+ERROR      НЕ ЗАДАННО ИМЯ БАЗЫ ДАННЫХ ПРИ ПОЛУЧЕНИЕ ВЫБОРКИ:      время:19:02:11 и дата:08.19.14
+ERROR      НЕ ЗАДАННО ИМЯ БАЗЫ ДАННЫХ ПРИ ПОЛУЧЕНИЕ ВЫБОРКИ:      время:19:02:11 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE login='admin'     время:19:02:19 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  User SET token='9c1 aK' WHERE id='2'     время:19:02:19 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:19:02:19 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:19:02:46 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:19:02:46 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:19:02:46 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:19:02:57 и дата:08.19.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='zxsyVd'     время:16:37:55 и дата:08.20.14
+ERROR      НЕ ЗАДАННО ИМЯ БАЗЫ ДАННЫХ ПРИ ПОЛУЧЕНИЕ ВЫБОРКИ:      время:16:37:55 и дата:08.20.14
+ERROR      НЕ ЗАДАННО ИМЯ БАЗЫ ДАННЫХ ПРИ ПОЛУЧЕНИЕ ВЫБОРКИ:      время:16:37:55 и дата:08.20.14
+ERROR      НЕ ЗАДАННО ИМЯ БАЗЫ ДАННЫХ ПРИ ПОЛУЧЕНИЕ ВЫБОРКИ:      время:16:37:55 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE login='admin'     время:16:38:03 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  User SET token='gweY y' WHERE id='2'     время:16:38:03 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:16:38:03 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO Maps (name,data,Type) VALUES('вашлоготип','svg/20140820164610529.svg','svg')     время:16:46:10 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:16:47:15 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=4     время:16:47:24 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='9c1 aK'     время:16:48:17 и дата:08.20.14
+ERROR      НЕ ЗАДАННО ИМЯ БАЗЫ ДАННЫХ ПРИ ПОЛУЧЕНИЕ ВЫБОРКИ:      время:16:48:17 и дата:08.20.14
+ERROR      НЕ ЗАДАННО ИМЯ БАЗЫ ДАННЫХ ПРИ ПОЛУЧЕНИЕ ВЫБОРКИ:      время:16:48:17 и дата:08.20.14
+ERROR      НЕ ЗАДАННО ИМЯ БАЗЫ ДАННЫХ ПРИ ПОЛУЧЕНИЕ ВЫБОРКИ:      время:16:48:17 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE login='admin'     время:16:48:26 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  User SET token='LPgGPR' WHERE id='2'     время:16:48:26 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:16:48:27 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=4     время:16:48:31 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='gweY y'     время:16:51:06 и дата:08.20.14
+ERROR      НЕ ЗАДАННО ИМЯ БАЗЫ ДАННЫХ ПРИ ПОЛУЧЕНИЕ ВЫБОРКИ:      время:16:51:06 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE login='admin'     время:16:51:12 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  User SET token='6aYapZ' WHERE id='2'     время:16:51:12 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:16:51:12 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:16:51:14 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=4     время:16:51:14 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=4     время:16:51:14 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:16:51:22 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=4     время:16:51:27 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:17:03:08 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=3     время:17:03:13 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:17:03:26 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=4     время:17:03:30 и дата:08.20.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE login='admin'     время:21:56:04 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE login='admin'     время:21:56:17 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  User SET token='INRTQs' WHERE id='2'     время:21:56:17 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:21:56:18 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=4     время:21:56:29 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:21:56:31 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:21:56:34 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=4     время:21:56:34 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=4     время:21:56:34 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO NameTypeObject (name,Type) VALUES('текст','GL')     время:21:57:08 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO SmallProfile (name,Id_NTO,type) VALUES('принадлежность','2','текст')     время:21:57:08 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO SmallProfile (name,Id_NTO,type) VALUES('свойство','2','текст')     время:21:57:08 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:21:57:08 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:21:57:10 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:21:57:12 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=4     время:21:57:12 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=4     время:21:57:12 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:21:57:13 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE id=2     время:21:57:16 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM SmallProfile WHERE Id_NTO=2     время:21:57:16 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM FullData WHERE Id_NTO=2     время:21:57:16 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO Objects (name,Id_NTO,Id_OBJ) VALUES('текст1','2','0')     время:21:57:26 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO SmallProfileData (text,Id_SP,Id_OBJ) VALUES('к','2','6')     время:21:57:26 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO SmallProfileData (text,Id_SP,Id_OBJ) VALUES('й','3','6')     время:21:57:26 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:21:57:28 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=4     время:21:57:29 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:21:57:29 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=4     время:21:57:30 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=2     время:21:57:33 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: INSERT INTO Link (Id_MAP,Id_OBJ,Id_MAPOBJ) VALUES('4','6','svg_11')     время:21:57:41 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:21:57:59 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=4     время:21:58:01 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:21:58:01 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=4     время:21:58:02 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:21:58:03 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=2     время:21:58:06 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:21:58:06 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM LinkOBJ WHERE Id_MAP=2     время:21:58:07 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:21:58:23 и дата:08.27.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='INRTQs'     время:23:53:40 и дата:09.02.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:23:53:40 и дата:09.02.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE login='admin'     время:23:53:49 и дата:09.02.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: UPDATE  User SET token='N64FDo' WHERE id='2'     время:23:53:49 и дата:09.02.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:23:53:49 и дата:09.02.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:23:53:53 и дата:09.02.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:23:53:55 и дата:09.02.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='N64FDo'     время:20:43:40 и дата:09.04.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:20:43:40 и дата:09.04.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps WHERE id=4     время:20:43:54 и дата:09.04.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='N64FDo'     время:21:28:28 и дата:09.04.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:21:28:28 и дата:09.04.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE Type='GL'     время:21:28:31 и дата:09.04.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE Id_NTO=1     время:21:28:33 и дата:09.04.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM NameTypeObject WHERE id=1     время:21:28:34 и дата:09.04.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM SmallProfile WHERE Id_NTO=1     время:21:28:34 и дата:09.04.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM FullData WHERE Id_NTO=1     время:21:28:34 и дата:09.04.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Objects WHERE id=3     время:21:28:34 и дата:09.04.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM SmallData WHERE Id_OBJ=3 AND  Type='Текст'     время:21:28:34 и дата:09.04.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM SmallData WHERE Id_OBJ=3 AND  Type='Изображение'     время:21:28:34 и дата:09.04.14
+ERROR      НЕ ЗАДАННО ИМЯ БАЗЫ ДАННЫХ ПРИ ПОЛУЧЕНИЕ ВЫБОРКИ:      время:21:28:34 и дата:09.04.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM User WHERE token='N64FDo'     время:19:20:11 и дата:09.06.14
+ERROR      СОЗДАНИЕ ТАБЛИЦЫ В БАЗЕ: SELECT  * FROM Maps     время:19:20:12 и дата:09.06.14

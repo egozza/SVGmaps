@@ -1,0 +1,148 @@
+<div class='conteiner ' >
+<div class='span7 offset2 navbar-inner border'>
+	<h4 class="center">Редактирование объекта  "{{NameOBJ}}"</h4>
+
+<table class='table table-condensed'>
+	<tr  class='form-inline' >
+	<td width="30%">
+	<div class="center">
+
+		<label class="text" for="input-name">
+					Название
+		</label>
+		</div>
+			</td>
+				<td width="30%">	
+					<input type='text' placeholder="Введите имя..." id='input-name' ng-model='NameOBJ'>
+				</td>
+				
+				<td width="30%">
+
+			</td>
+		</tr>
+	<tr>
+		<td>
+		</td>
+		<td>
+			<div class='center'>
+			<lable class='text-info center>'>
+				Характеристики
+			</lable>
+			</div>
+		</td>
+		<td>
+			
+		</td>
+	</tr>
+		<tr class='form-inline' ng-repeat='(key,value) in listsSP'>
+			<td>  
+			<div class="center">
+				<label class="text" for="inputSP-{{key}}">
+				{{value.name}}
+				</label>
+				</div>
+			
+			</td>
+			<td>
+			
+					<input type='text'  ng-model='value.text' placeholder="Введите текст..." value="{{value.name}}"  id="inputSP-{{key}}"ng-required>
+
+				
+			</td>
+			<td>
+				
+			</td>
+	</tr>
+	<tr class='form-inline' ng-repeat='(key,value) in listsSPimg'>
+			<td>  
+			<div class="center">
+				<label class="text" for="inputSPimg-{{key}}">
+				{{value.name}}
+				</label>
+				</div>
+			
+			</td>
+			<td>
+			
+					<div class='loadeImg'></div>
+
+
+				
+			</td>
+			<td>
+				
+
+			</td>
+	</tr>
+	
+<tr>
+		<td>
+		</td>
+		<td>
+			<div class='center'>
+			<lable class='text-info center>'>
+				Классы
+			</lable>
+			</div>
+		</td>
+		<td>
+			
+		</td>
+	</tr>
+	
+		<tr class='form-inline' ng-repeat='(key,value) in listsFP'>
+		<td>
+		
+				<div class="center">
+					<label class="text" for="inputFP-{{key}}">
+
+						{{value.name}}
+					</label>
+				</div>	
+				
+			</td>
+			</td>
+			<td> 
+			<td>
+				<div class='center'>
+				<a class="btn btn-mini btn-warning{{value.Class}} " title='Добавть объект' href="admin.php#/addobj/{{value.id}}/{{value.name}}/{{Id_OBJ}}/{{NameOBJ}}">
+					<i class="icon-plus icon-white {{value.Class}}" title='Добавть объект'></i>
+					</a>
+					<a class="btn btn-mini btn-info" data-ng-click="removeFP(key)" title='Открыть список объекток' href="admin.php#/allobj/{{value.id}}/{{value.name}}/{{Id_OBJ}}/{{NameOBJ}}">
+					<i class="icon-folder-open icon-white" title='Открыть список объекток'></i> 
+				</a>
+				
+				</div>
+			</td>
+			
+	</tr>
+	<tr>
+		<td>
+		</td>
+		<td>
+		
+		</td>
+	<td>
+	</td>
+</tr>
+
+</table>
+<div class='center'>
+			<button ng-click='saveAll()'  class='btn btn-primary ' >
+				Сохранить
+			</button>
+			<button ng-click='removeOBJ()'  class='btn btn-danger ' >
+				Удалить
+			</button>
+			<button ng-click='GoToBack()'  class='btn btn-success ' >
+				Назад
+			</button>
+
+
+
+			</div>
+	
+	
+	
+	</div>
+</div>

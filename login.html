@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='User' >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SVGmap Авторизация</title>
+
+  <link rel="stylesheet" href="bootstrap/locall/dist/css/bootstrap.css">
+
+  <link rel="stylesheet" href="style_admin.css">
+<script src="angular/angular.js"></script>
+<script src="angular/angular-resource.js"></script>
+<script src="angular/angular-route.js"></script>
+<script src="guest/controllers.js"></script>
+<script src="guest/app.js"></script>
+<script src="guest/services.js"></script>
+
+</head>
+<body>
+<div class='container-fluid main'>
+<div class='container-fluid'>
+<div class="navbar navbar-inverse">
+        <div class="navbar-inner">  <div class='row'>
+        <div class='span6 offset7'>
+        <h2 class='text-white'>Авторизация пользователя</h2>
+        </div>
+        <div class='span2'>
+         <img src="img/logoSVG.png" width="100pt" height="30pt"/>
+         </div>
+        </div>
+
+        </div>
+      
+        </div></div>
+        <div class="container-fluid center">
+        <div class="navbar-inner span5 offset5 " ng-view>
+         
+        </div>
+       
+</div>
+</div>
+</body>
+
+</html>

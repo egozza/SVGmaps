@@ -1,0 +1,40 @@
+<div class='conteiner' >
+<div class ='span6 offset2 navbar-inner border'>
+	<h4 align="center">Все объекты</h4>
+	<table class='table  table-hover table-striped background-white table-bordered'>
+		<thead>
+		<tr>
+			<th width="50%">
+				
+				<input class="search-query span2 " ng-model='filterName' placeholder="Поиск...">
+				
+			</th>
+			<th width="20%">
+			<div class='center'>
+				#	
+				</div>
+			</th>
+		</tr>
+		</thead>
+		<tbody >
+		<tr  ng-repeat='(key,value) in lists["Response"]|filter:filterName' >
+			<td>
+
+				 Объекты класса <span class='text-info'>{{value.name}}</span>
+			</td>
+			<td>
+				
+				<a class="btn btn-mini btn-success pull-right" href="admin.php#/allobj/{{value.id}}/{{value.name}}/null/null">
+					<i class="icon-folder-open icon-white" title='Показать объекты класса {{value.name}}'></i> 
+				</a>
+				<a class="btn btn-mini pull-right btn-warning " title='Добавть объект' href="admin.php#/addobj/{{value.id}}/{{value.name}}/null/null">
+					<i class="icon-plus icon-white {{value.Class}}" title='Добавть объект'></i>
+					</a>
+			</td>
+		</tr>
+		</tbody>
+	</table>
+	
+
+</div>
+</div>

@@ -1,0 +1,13 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+
+ <g>
+  <title>Layer 1</title>
+  <rect fill="#ffffff" stroke="#000000" stroke-width="5" x="0" y="0" width="638" height="476" id="svg_5"/>
+  <rect fill="#00bfbf" stroke="#000000" stroke-width="5" x="138" y="96" width="357" height="230" id="svg_1"/>
+  <rect fill="#b2b2b2" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="188" y="122" width="95" height="98" id="svg_3"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_4" y="47" x="275" stroke-width="0" stroke="#000000" fill="#000000">егор</text>
+  <rect id="svg_2" fill="#999999" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="338" y="120" width="95" height="98"/>
+  <path transform="rotate(179.697, 312.633, 284.496)" id="svg_6" d="m259.63168,310.99496l0,0c0,-29.27106 23.72946,-52.99997 52.99911,-52.99997c29.27115,0 53.00092,23.72891 53.00092,52.99997l-26.50089,0c0,-14.63559 -11.86334,-26.5 -26.50003,-26.5c-14.63501,0 -26.49893,11.86441 -26.49893,26.5l-26.50018,0z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#e82222"/>
+ </g>
+</svg>

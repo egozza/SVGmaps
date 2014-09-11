@@ -1,0 +1,15 @@
+OK 		GET TABLE in TABLESmallProfile     время:14:33:43 и дата:04.08.14
+OK 		INSERT STRING in TABLESmallProfile     время:14:33:43 и дата:04.08.14
+OK 		GET TABLE in TABLESmallProfile     время:14:33:43 и дата:04.08.14
+OK 		GET TABLE in TABLESmallProfile     время:14:33:43 и дата:04.08.14
+OK 		GET TABLE in TABLESmallProfile     время:14:35:02 и дата:04.08.14
+OK 		INSERT STRING in TABLESmallProfile     время:14:35:02 и дата:04.08.14
+OK 		GET TABLE in TABLESmallProfile     время:14:35:02 и дата:04.08.14
+OK 		GET TABLE in TABLESmallProfile     время:14:35:02 и дата:04.08.14
+OK 		ПОЛУЧЕНИЕ ВЫБОРКИ ИЗ ТАБЛИЦЫ: SmallProfile     время:14:55:10 и дата:04.08.14
+OK 		СОЗДАНИЕ НОВОЙ СТРОКИ В ТАБЛИЦЕ: SmallProfile     время:14:55:10 и дата:04.08.14
+OK 		СОЗДАНИЕ КОРОТКОГО ПАРАМЕТРА ТИПА  : сайт2     время:14:55:10 и дата:04.08.14
+OK 		ПОЛУЧЕНИЕ ВЫБОРКИ ИЗ ТАБЛИЦЫ: SmallProfile     время:14:55:10 и дата:04.08.14
+OK 		УДАЛЕНИЕ СТРОКИ ИЗ ТАБЛИЦЫ: SmallProfile     время:14:55:10 и дата:04.08.14
+OK 		УДАЛЕНИЕ SMALL ПАРАМЕТРА С ИМЕНЕМ:      время:14:55:10 и дата:04.08.14
+OK 		ПОЛУЧЕНИЕ ВЫБОРКИ ИЗ ТАБЛИЦЫ: SmallProfile     время:14:55:10 и дата:04.08.14

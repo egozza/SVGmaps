@@ -1,0 +1,63 @@
+<div class='conteiner' >
+
+<div class ='span8  navbar-inner border background-white'>
+	  <div class='svgone' ok="Ok"></div>
+    <div class='center border_line'>
+    <p>
+      <button ng-click='SaveAll()'  class='btn btn-primary ' >
+        Сохранить
+      </button>
+
+      <a  href="admin.php#/allmaps"  class='btn btn-success ' >
+        Карты
+      </a>
+</p>
+
+
+      </div>
+  
+</div>
+<div class ='span3  navbar-inner border'>
+	        <div class=" menuRight tabbable"> <!-- Only required for left/right tabs -->
+          </br>
+        <ul class="nav nav-tabs">
+        <li class="tab active" id="tab-1"><a >Связи</a></li>
+      
+        </ul>
+        <div class="tab-content table_200">
+        <div class="tab-pane active" id="tab1">
+        <div class="window_panel border">
+      <table class="table table-hover table-striped background-white table-bordered ">
+      	<thead>
+		<tr>
+			<th width="50%">
+				<small>ID на карте</small>
+		
+				
+			</th>
+			<th width="50%">
+			<div class='center'>
+				<small>объект</small>
+				</div>
+			</th>
+		</tr>
+		</thead>
+		<tbody><tr ng-repeat="value in Linkall"><td>{{value.Id_MAPOBJ}}</td><td>{{value.nameOBJ}}</td></tr></tbody>
+      </table>
+        </div>
+        </div>
+        <div class="tab-pane" id="tab2">
+         <div class="window_panel border">
+         dsd
+        </div>
+        </div>
+         <div class="tab-pane" id="tab3">
+        <p>Привет, я в Разделе 2.</p>
+        </div>
+        </div>
+        </div>
+</div>
+
+</div>
+<div class="LinkDialog"></div>
+</div>

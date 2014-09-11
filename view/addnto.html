@@ -1,0 +1,141 @@
+<div class='conteiner ' >
+<div class='span6 offset2 navbar-inner border'>
+	<h4 class="center">Создание нового класса</h4>
+<table class='table table-condensed'>
+	<tr  class='form-inline' >
+	<td width="30%">
+	<div class="center">
+
+		<label class="muted" for="input-name">
+					Имя
+		</label>
+		</div>
+			</td>
+				<td width="30%">	
+					<input type='text' id='input-name' ng-model='NameNTO'>
+				</td>
+				
+				<td width="30%">
+
+			</td>
+		</tr>
+	<tr>
+		<td>
+		</td>
+		<td>
+			<div class='center'>
+			<lable class='text-info center>'>
+				Характеристики
+			</lable>
+			</div>
+		</td>
+		<td>
+			
+		</td>
+	</tr>
+		<tr class='form-inline' ng-repeat='(key,value) in listsSP'>
+			<td>  
+			<div class="center">
+				<label class="muted" for="inputSP-{{key}}">
+				Имя
+				</label>
+				</div>
+			
+			</td>
+			<td>
+			
+					<input type='text'  ng-model='value.name' placeholder="Введите имя..." value="{{value.name}}"  id="inputSP-{{key}}"ng-required>
+				
+			</td>
+			<td>
+					<a class="btn btn-mini btn-danger pull-right" data-ng-click="removeSP(key)">
+						<i class="icon-trash icon-white" title='Удалить'></i> 
+					</a>
+				
+			</td>
+	</tr>
+	<tr>
+		<td>
+		</td>
+		<td>
+		<div class='center'>
+			<a ng-click='addSP()'  class='btn btn-primary btn-small' >
+				Добавить
+			</a>
+			</div>
+		</td>
+	<td>
+	</td>
+</tr>
+<tr>
+		<td>
+		</td>
+		<td>
+			<div class='center'>
+			<lable class='text-info center>'>
+				Классы
+			</lable>
+			</div>
+		</td>
+		<td>
+			
+		</td>
+	</tr>
+		<tr class='form-inline' ng-repeat='(key,value) in listsFP'>
+			<td> 
+				<div class="center">
+					<label class="muted" for="inputFP-{{key}}">
+
+						Имя
+					</label>
+				</div>	
+				
+			</td>
+			<td>
+				
+					<input type='text'  ng-model='value.name' placeholder="Введите имя..." value="{{value.name}}"  id="inputFP-{{key}}"ng-required>
+				
+			</td>
+			<td>
+			
+				<a class="btn btn-mini btn-danger pull-right" data-ng-click="removeFP(key)">
+					<i class="icon-trash icon-white" title='Удалить'></i> 
+				</a>
+				
+				
+			</td>
+	</tr>
+	<tr>
+		<td>
+		</td>
+		<td>
+		<div class='center'>
+			<a ng-click='addFP()'  class='btn btn-primary btn-small' >
+				Добавить
+			</a>
+			</div>
+		</td>
+	<td>
+	</td>
+</tr>
+
+</table>
+<div class='center'>
+			<button ng-click='saveAll()'  class='btn btn-primary ' >
+				Сохранить
+			</button>
+			<button ng-click='delete()'  class='btn btn-warning ' >
+				Удалить
+			</button>
+			<button ng-click='GoToBack()'  class='btn btn-success ' >
+				Назад
+			</button>
+
+
+
+			</div>
+	
+	
+	
+	</div>
+</div>

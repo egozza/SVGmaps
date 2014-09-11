@@ -1,0 +1,105 @@
+<div class='conteiner ' >
+<div class='span7 offset2 navbar-inner border'>
+	<h4 class="center">Создание нового объекта класса "{{NameClass}}"</h4>
+
+<table class='table table-condensed'>
+	<tr  class='form-inline' >
+	<td width="30%">
+	<div class="center">
+
+		<label class="text" for="input-name">
+					Название
+		</label>
+		</div>
+			</td>
+				<td width="30%">	
+					<input type='text' placeholder="Введите имя..." id='input-name' ng-model='NameOBJ'>
+				</td>
+				
+				<td width="30%">
+
+			</td>
+		</tr>
+	<tr>
+		<td>
+		</td>
+		<td>
+			<div class='center'>
+			<lable class='text-info center>'>
+				Характеристики
+			</lable>
+			</div>
+		</td>
+		<td>
+			
+		</td>
+	</tr>
+		<tr class='form-inline' ng-repeat='(key,value) in listsSP'>
+			<td>  
+			<div class="center">
+				<label class="text" for="inputSP-{{key}}">
+				{{value.name}}
+				</label>
+				</div>
+			
+			</td>
+			<td>
+			
+					<input type='text'  ng-model='value.text' placeholder="Введите текст..." value="{{value.name}}"  id="inputSP-{{key}}"ng-required>
+
+				
+			</td>
+			<td>
+				
+			</td>
+	</tr>
+	
+<tr>
+		<td>
+		</td>
+		<td>
+			<div class='center'>
+			<lable class='text-info center>'>
+				Классы
+			</lable>
+			</div>
+		</td>
+		<td>
+			
+		</td>
+	</tr>
+	
+		
+	<tr>
+		<td>
+		</td>
+		<td>
+		<div class='center'>
+<lable class='muted'>
+				Классы не доступны до сохранения объекта
+			</lable>		</td>
+			</div>
+	<td>
+	</td>
+</tr>
+
+</table>
+<div class='center'>
+			<button ng-click='saveAll()'  class='btn btn-primary ' >
+				Сохранить
+			</button>
+			<button ng-click='delete()'  class='btn btn-warning ' >
+				Удалить
+			</button>
+			<button ng-click='GoToBack()'  class='btn btn-success ' >
+				Назад
+			</button>
+
+
+
+			</div>
+	
+	
+	
+	</div>
+</div>

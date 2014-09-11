@@ -1,0 +1,46 @@
+<div class='conteiner' >
+<div class ='span6  offset2 navbar-inner border'>
+	<h4 align="center">Все объекты класса {{NameClass}}</h4>
+	<table class='table  table-hover table-striped background-white table-bordered'>
+		<thead>
+		<tr>
+			<th width="50%">
+				Имя объекта
+				<input class="search-query span2 " ng-model='filterName'>
+				
+			</th>
+			<th width="20%">
+			<div class='center'>
+				#	
+				</div>
+			</th>
+		</tr>
+		</thead>
+		<tbody >
+		<tr  ng-repeat='(key,value) in lists|filter:filterName' >
+			<td>
+
+				  {{value.name}}
+			</td>
+			<td>
+				<a class="btn btn-mini btn-danger pull-right" data-ng-click="removeSP(key)">
+						<i class="icon-trash icon-white" title='Удалить'></i> 
+					</a>
+				<a class="btn btn-mini btn-success pull-right" href="admin.php#/editobj/{{Id_NTO}}/{{NameClass}}/{{value.id}}/{{value.name}}">
+					<i class="icon-folder-open icon-white" title='Показать объекты класса {{value.name}}'></i> 
+				</a>
+
+			</td>
+		</tr>
+		</tbody>
+	</table>
+	<div class='center'>
+	<a  href="admin.php#/addobj/{{Id_NTO}}/{{NameClass}}/{{Id_OBJ}}/{{NameOBJ}}" class='btn btn-primary' >Добавить</a>
+	<button ng-click='GoToBack()'  class='btn btn-success ' >
+				Назад
+			</button>
+	</div>
+	
+
+</div>
+</div>

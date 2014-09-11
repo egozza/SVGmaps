@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Проект РОССИЯ------Панель управления</title>
+<link rel="stylesheet" type="text/css" href="style_admin.css">
+<script type="text/javascript" src="jquery-1.9.1.js"></script>
+<script type="text/javascript" src="admin/TypeObject.js"></script>
+<script type="text/javascript" src="admin/Object.js"></script>
+<script type="text/javascript" src="admin/Jquery.js"></script>
+<script type="text/javascript" src="admin/viewNTO.js"></script>
+<script type="text/javascript" src="admin/AdminMenu.js"></script>
+<script type="text/javascript" src="admin/massage.js"></script>
+<script type="text/javascript" src="admin/viewOBJ.js"></script>
+<script type="text/javascript" src="admin/GlobalFunction.js"></script>
+<script type="text/javascript" src="admin/hist.js"></script>
+</head>
+<body>
+<div id='global'>
+  <div class="left">
+    <div class="global_baner" >
+      <img src="img/admin_logo.png" id='1' width="100%" height="30%" />
+    </div>
+<ul class='Menu'>
+      <li class='LiMenu' onclick="AdminMenu.SetMenuTypeObject()" id='TypeObjectOne'>
+      <h3>Классы Объектов</h3>
+          <ul class='Menu' id='TypeObjectTwo'>
+
+          </ul>
+
+      </li>
+      <li class='OneMenu' onclick="AdminMenu.SetMenuObject()" id='ObjectsOne'>
+      <h3>Объекты</h3>
+          <ul class='Menu' id='ObjectsTwo'>
+
+          </ul>
+      </li>
+
+</ul>
+
+</div>
+<div class='right' style='margin-top:90px' id='RightContent'></div>
+<div align='center'>
+<h2> Система администрирования </h2>
+<p> <h3>Сдесь вы можете создавать новые карты, новые классы объектов, новые объекты</h3></p>
+</div>
+</div>
+
+</body>
+
+</html>

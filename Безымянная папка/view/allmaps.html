@@ -1,0 +1,53 @@
+<div class='conteiner' >
+<div class ='span6 offset2 navbar-inner border'>
+	<h4 align="center">Все карты</h4>
+	<table class='table  table-hover table-striped background-white table-bordered'>
+		<thead>
+		<tr>
+			<th width="50%">
+				Имя карты
+				
+				
+			</th>
+			<th width="15%">
+			<div class='center'>
+				#	
+				</div>
+			</th>
+		</tr>
+		</thead>
+		<tbody >
+		<tr  ng-repeat='(key,value) in ListMaps|orderBy:orderby:reverse' >
+			<td>
+			<p>	<lable class="text-info">  {{value.name}}</lable></p>
+
+
+				 
+ <object class="svg center" data="{{value.data}}" type="image/svg+xml"  width="100%" >
+ 
+        </object>
+
+
+
+
+			</td>
+			<td>
+				<a class="btn btn-mini btn-danger pull-right" data-ng-click="DeleteMap(value.id,value.data,key)">
+						<i class="icon-trash icon-white" title='Удалить'></i> 
+					</a>
+	<a class="btn btn-mini btn-success pull-right" href="admin.php#/editsvg/{{value.id}}/{{value.name}}">
+					<i class="icon-folder-open icon-white" title='Показать объекты класса {{value.name}}'></i> 
+				</a>
+
+			</td>
+		</tr>
+		</tbody>
+	</table>
+	<div class='center'>
+	<a  href="admin.php#/creatsvg" class='btn btn-primary' >Добавить</a>
+	
+	</div>
+	
+
+</div>
+</div>

@@ -1,0 +1,27 @@
+<svg width="640.0000000000001" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <filter id="svg_1_blur">
+   <feGaussianBlur stdDeviation="0.3" in="SourceGraphic"/>
+  </filter>
+  <filter id="svg_12_blur">
+   <feGaussianBlur stdDeviation="1" in="SourceGraphic"/>
+  </filter>
+  <filter id="svg_6_blur">
+   <feGaussianBlur stdDeviation="0.5" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <ellipse filter="url(#svg_1_blur)" opacity="0.74" transform="matrix(1.58333, 0, 0, 1.42857, -129.405, -83.3528)" fill-opacity="0" ry="84" rx="133.99999" id="svg_1" cy="202.57143" cx="304.35553" stroke-width="2" stroke="#000000" fill="#000000"/>
+  <text id="svg_5" transform="matrix(2.76773, 0, 0, 3.05195, -510.967, -312.652)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="160.04338" x="312.72274" opacity="0.25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">SVG</text>
+  <text filter="url(#svg_12_blur)" id="svg_12" transform="matrix(2.76773, 0, 0, 3.05195, -510.967, -312.652)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="161.38076" x="312.72274" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">SVG</text>
+  <text filter="url(#svg_6_blur)" transform="rotate(30, 375.407, 211.803) matrix(1.68941, 0, 0, 1.52428, -160.089, -102.356)" fill-opacity="0" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_6" y="214.66469" x="316.97217" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#007f7f" fill="#000000">M</text>
+  <text id="svg_17" transform="rotate(30, 375.917, 213.939) matrix(1.58333, 0, 0, 1.42857, -129.405, -83.3528)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="216.22449" x="319.15137" opacity="0.44" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#007f7f" fill="#007f7f">M</text>
+  <text id="svg_19" transform="rotate(30, 412.116, 234.347) matrix(1.58333, 0, 0, 1.42857, -129.405, -83.3528)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="230.51022" x="342.35228" opacity="0.44" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#007f7f" fill="#007f7f">A</text>
+  <text id="svg_20" transform="rotate(30, 445.305, 254.755) matrix(1.58333, 0, 0, 1.42857, -129.405, -83.3528)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="244.79595" x="362.97531" opacity="0.44" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#007f7f" fill="#007f7f">P</text>
+  <text id="svg_21" filter="url(#svg_6_blur)" transform="rotate(30, 413.162, 234.252) matrix(1.68941, 0, 0, 1.52428, -160.089, -102.356)" fill-opacity="0" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="229.39228" x="339.32027" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#007f7f" fill="#000000">A</text>
+  <text id="svg_22" filter="url(#svg_6_blur)" transform="rotate(30, 444.795, 251.599) matrix(1.68941, 0, 0, 1.52428, -160.089, -102.356)" fill-opacity="0" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="240.7727" x="358.04435" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#007f7f" fill="#000000">P</text>
+  <ellipse id="svg_23" filter="url(#svg_1_blur)" transform="matrix(1.71913, 0, 0, 1.6109, -153.44, -105.532)" fill-opacity="0" ry="84" rx="133.99999" cy="193.57164" cx="294.88835" stroke="#000000" fill="#000000"/>
+ </g>
+</svg>

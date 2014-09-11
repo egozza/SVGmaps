@@ -1,0 +1,56 @@
+<div class="span3  navbar-inner border">
+<p >
+         <button class="close pull-right CloseWindow">&times;</button>
+</p>
+<table>
+<tr>
+<td width="60%">
+<lable class="text-info"> Добавить к объекту с ID:</lable>
+</td>
+<td width="35%">
+ <label class="text-success center">{{IdObject}}</label>
+ </td>
+
+ </tr>
+ </table></br>
+    <div class=" menuRight tabbable"> <!-- Only required for left/right tabs -->
+        <ul class="nav nav-tabs center">
+        <li class="tab active" id="tab-4"><a >Связь с данными</a></li>
+       
+        </ul>
+        <div class="tab-content">
+        <div class="tab-pane active center" id="tab4">
+      	
+      		<p class="muted "><small>Сдесь вы можете создать связь  между объектом</br>
+      		 на карте и 
+      		 информационном объектом</small></p>
+      		<table >
+      			<tr>
+      				<td>
+      					<small>Выбирите класс</small>
+      				</td>
+      				<td>
+      					<small>Выбирите объект</small>
+      				</td>
+      				</tr>
+      		<tr class="newLink" sel="SelectNTO">
+      		
+      			<td>
+      				<select class="span2" ng-model="SelectNTO" ng-options="value.id as value.name for (key , value) in ListNTO">
+      				</select>
+      			</td>
+      			<td>
+      					<select class="span2" ng-model="SelectOBJ" ng-options="value.id as value.name for (key , value) in ListOBJ">
+      				</select>
+      			</td>
+      		</tr>
+      		</table>
+      		<button class='btn btn-primary Close'>Добавить</button>
+	
+      		
+        </div>
+       
+        </div>
+        
+        </div>
+        </div>

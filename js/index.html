@@ -1,0 +1,205 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="jquery-1.9.1.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Проек РОССИЯ</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript">
+$(document).ready(function(e) {
+	$('.action.greenbtn#buttom_clike').click(function(){
+		 $('.body').animate({opacity:"0.1"})
+		$('.windows').slideDown(1400)
+		return false;
+		
+		})
+    $('.action.greenbtn_register#click_register').click(function() {
+		  e.preventDefault(); 
+        ajax_register(); 
+		$('.windows').slideUp(2000)
+		$('.body').animate({opacity:"1"})
+		return false;
+	})
+	
+});
+function ajax_register()
+{
+	var first_name=$("#first_name_text");
+	var last_name=$("#last_name_text");
+	var surname=$("#surname_text");
+	var email=$("#email_text");
+	var date_brith=$("#date_text");
+	var region=$("#region_text");
+	var cheked=$("#checked");
+	
+$.post("./register.php", {first_name: first_name,last_name:last_name,surname:surname,email:email,date_brith:date_brith,region:region,root_email:cheked}, function(data){
+   if (data.length>0){ 
+     $(".error_email").html(data); 
+   } 	
+});
+}
+
+</script>
+</head>
+
+<body>
+<div class="body">
+<div id ="one" class="col"></div>
+<div id="two" class="col"><div class="col" id="housetop"> </div>
+<div id="one_top" class="top"> </div>
+<div id="two_too" class="top"> 
+<div id="spase" class="cpase"></div>
+<div id="top_nas_one" class="nas_img" ></div>
+<div id="top_nas_two" class="nas_img" ><img  id ="nas_img" src="img/nas_img.jpg" />
+  
+</div>
+<div id="top_nas_three" class="nas_img"></div>
+<div id="one_pople" class="pople" ><img  class="pople" src="img/number.jpg"  /> </div>
+<div id="two_pople" class="pople" ><img class="pople" src="img/number.jpg"  /> </div>
+<div id="three_pople" class="pople" ><img class="pople" src="img/number.jpg"  /> </div>
+<div id="four_pople" class="pople" ><img class="pople" src="img/number.jpg"  /> </div>
+</div>
+
+<div id="three_free" class="top"><img id="logo" src="img/logo.png"  /> </div>
+<div class="map_rassia" id="one_line" >
+<div id="left_logo_top" class=" one_line"><img class="gerb_img" src="img/top_logo.jpg"  /></div>
+  <div id="center_logo_top" class=" one_line">
+  <div class="one_line_center"id="top"> </div>
+  <div class="one_line_center" id="center"> <hr class="one_line"> </div>
+  
+  </div>
+<div id="right_logo_top" class="one_line"><img class="gerb_img" src="img/top_logo.jpg"  /> </div>
+</div>
+<div class="map" ></div>
+<div class="map_buttom"  >
+  <button class="action greenbtn" id="buttom_clike" > <span class="label">Отметиться</span></button></div>
+<div class="map_buttom"  >
+<button class="action bluebtn" id="buttom_fine" ><span class="label">    Поиск   </span></button>
+
+</div>
+</div>
+</div>
+
+</div>
+<div id="three" class="col"></div>
+<div class="windows" id="register">
+
+<div class="windows_post">
+<div class=error_email" ></div>
+<form id="register_php" method="post">
+<table id="register_table">
+<div class="text_edit" id="first_name">
+<tr> <td><p>Имя </p></td> <td > <input class ="text" type="text" name="first_name_text"id="first_name_text" /></td> </tr> </div>
+<div class="text_edit" id="last_name" ><tr><td><p>Фамилия </p></td><td > <input class ="text" type="text" name="last_name_text"id="last_name_text" /></td></tr></div>
+<div class="text_edit" id="surname" > <tr><td><p>Отчество </p></td><td > <input class ="text" type="text" name="surname_text"id="surname_text" /></td></tr></div>
+<div class="text_edit" id="email" > <tr><td><p>Email</p></td><td > <input  class ="text" type="email" name="email_text" id="email_text" /></td></tr></div>
+<div class="text_edit" id="date" > <tr><td><p>Дата рождения</p></td><td > <input type="date"  class ="text" name="date_text" id="date_text" value="дд.мм.гггг" /></td></tr></div>
+<div class="text_edit" id="region" > <tr><td><p>Ваш Регион</p></td><td > 
+<select name="region" id="region_text" >
+<option value="1" selected > Республика Адыгея</option>
+<option value="2" > Республика Башкортостан</option>
+<option value="3" > Республика Бурятия</option>
+<option value="4" > Республика Алтай</option>
+<option value="5" > Республика Дагестан</option>
+<option value="6" >Республика Ингушетия</option>
+<option value="7" > Кабардино-Балкарская Респуб</option>
+<option value="8" > Республика Калмыкия</option>
+<option value="9" > Карачаево-Черкесская Респуб</option>
+<option value="10" > Республика Карелия</option>
+<option value="11" > Республика Коми</option>
+<option value="12" > Республика Марий Эл</option>
+<option value="13" > Республика Мордовия</option>
+<option value="14" >Республика Саха (Якутия)</option>
+<option value="15" > Республика Северная Осетия</option>
+<option value="16" > Республика Татарстан</option>
+<option value="17" > Республика Тыва (Тува)</option>
+<option value="18" > Удмуртская Республика</option>
+<option value="19" > Республика Хакасия</option>
+<option value="20" > Чеченская Республика</option>
+<option value="21" >Чувашская Республика</option>
+<option value="22" > Алтайский край</option>
+<option value="23" > Краснодарский край</option>
+<option value="24" > Красноярский край</option>
+<option value="25" > Приморский край</option>
+<option value="26" >Ставропольский край</option>
+<option value="27" > Хабаровский край</option>
+<option value="28" > Амурская область</option>
+<option value="29" > Архангельская область</option>
+<option value="30" > Астраханская область</option>
+<option value="31" > Белгородская область</option>
+<option value="32" > Брянская область</option>
+<option value="33" > Владимирская область</option>
+<option value="34" >Волгоградская область</option>
+<option value="35" > Вологодская область</option>
+<option value="36" > Воронежская область</option>
+<option value="37" > Ивановская область</option>
+<option value="38" > Иркутская область</option>
+<option value="39" > Калининградская область</option>
+<option value="40" > Калужская область</option>
+<option value="41" >Камчатская область</option>
+<option value="42" > Кемеровская область</option>
+<option value="43" > Кировская область</option>
+<option value="44" > Костромская область</option>
+<option value="45" > Курганская область</option>
+<option value="46" >Курская область</option>
+<option value="47" > Ленинградская область</option>
+<option value="48" > Липецкая область</option>
+<option value="49" > Магаданская область</option>
+<option value="50" > Московская область</option>
+<option value="51" > Мурманская область</option>
+<option value="52" > Нижегородская область</option>
+<option value="53" > Новгородская область</option>
+<option value="54" >Новосибирская область</option>
+<option value="55" > Омская область</option>
+<option value="56" > Оренбургская область</option>
+<option value="57" > Орловская область</option>
+<option value="58" > Пензенская область</option>
+<option value="59" > Пермская область</option>
+<option value="60" > Псковская область</option>
+<option value="61" >Ростовская область</option>
+<option value="62" > Рязанская область</option>
+<option value="63" > Самарская область</option>
+<option value="64" > Саратовская область</option>
+<option value="65" > Сахалинская область</option>
+<option value="66" > Свердловская область</option>
+<option value="67" > Смоленская область</option>
+<option value="68" > Тамбовская областьь</option>
+<option value="69" > Тверская область</option>
+<option value="70" > Томская область</option>
+<option value="71" >Тульская область</option>
+<option value="72" > Тюменская область</option>
+<option value="73" > Ульяновская область</option>
+<option value="74" > Челябинская область</option>
+<option value="75" > Читинская область</option>
+<option value="76" > Ярославская область</option>
+<option value="79" > Еврейская ао</option>
+<option value="80" > Агинский Бурятский ао</option>
+<option value="81" >Коми-Пермяцкий ао</option>
+<option value="82" > Корякский ао</option>
+<option value="83" >Ненецкий ао</option>
+<option value="84" > Таймырский ао</option>
+<option value="85" > Усть-Ордынский Бурятский ао</option>
+<option value="86" > Ханты-Мансийский ао</option>
+<option value="87" > Чукотский ао</option>
+<option value="88" > Эвенкийский ао</option>
+<option value="89" > Ямало-Ненецкий ао</option>
+
+
+</select>
+
+
+</td></tr>
+<tr>
+<td> <h6 style="color:#A0A0A4">*Отправлять на ваш email социальные опросы</h6> </td> <td> <input type="checkbox" checked="checked" id="checked"  /> <button class="action greenbtn_register" id="click_register" ><span class="label">Отметиться</span> </button> </td></tr>
+
+</div>
+</table>
+</form>
+</div>
+
+</div>
+
+</body>
+</html>

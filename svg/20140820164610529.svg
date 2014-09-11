@@ -1,0 +1,18 @@
+<svg width="268" height="270" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_2_blur">
+   <feGaussianBlur stdDeviation="4" in="SourceGraphic"/>
+  </filter>
+  <filter id="svg_1_blur">
+   <feGaussianBlur stdDeviation="1" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <path filter="url(#svg_1_blur)" transform="rotate(-90, 133.998, 132.5)" fill-opacity="0" id="svg_1" d="m2.00192,0.49809l131.99911,0l0,0c72.89966,0 131.99664,59.09927 131.99664,132.00053c0,72.90112 -59.09698,131.99942 -131.99664,131.99942l-131.99911,0l0,-263.99995z" stroke="#000000" fill="#000000"/>
+  <path filter="url(#svg_2_blur)" id="svg_2" transform="rotate(-90, 133.998, 135.5)" fill-opacity="0" d="m2.00192,3.49809l131.99911,0l0,0c72.89966,0 131.99664,59.09927 131.99664,132.00053c0,72.90112 -59.09698,131.99942 -131.99664,131.99942l-131.99911,0l0,-263.99995z" stroke-width="4" stroke="#000000" fill="#000000"/>
+  <text transform="matrix(1.93182, 0, 0, 1.6907, -267.432, -140.816)" id="svg_11" font-weight="bold" font-style="normal" xml:space="preserve" text-anchor="middle" font-family="Cursive" font-size="24" y="165.06467" x="210.22647" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#332d2d">ваш</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="Cursive" font-size="24" id="svg_14" y="175.52344" x="137.6875" opacity="0.7" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#332d2d">логотип</text>
+ </g>
+</svg>
